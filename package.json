@@ -12,7 +12,8 @@
   "devDependencies": {},
   "scripts": {
     "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
-    "start": "http-server"
+    "start": "http-server",
+    "build": "babel --presets=es2015 src -d build"
   },
   "repository": {
     "type": "git",
